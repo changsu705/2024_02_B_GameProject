@@ -6,6 +6,7 @@ public class MoveTest : MonoBehaviour
 {
     public Vector3 MoveOffSet;
     public Vector3 MoveOnSet;
+    public Vector3 MoveUpSet;
 
     // Start is called before the first frame update
     void Start()
