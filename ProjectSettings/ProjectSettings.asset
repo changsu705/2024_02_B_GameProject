@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 6feec89bb350e1744977065c68b7a5bb
+  productGUID: 9c6da2823e219b34bbd6966843e316d7
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: XRsilmu
+  productName: URPProject
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -837,14 +837,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: XRsilmu
+  metroPackageName: URPProject
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: XRsilmu
+  metroApplicationDescription: URPProject
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -914,11 +914,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: b49e9f2d-d664-4f6f-a2fb-5ae3bd24a251
+  cloudProjectId: 319aae93-5395-4751-9bd4-33c4dc823878
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: XRsilmu
-  organizationId: unity_2021137031
+  projectName: URPProject
+  organizationId: calendula_unity
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
