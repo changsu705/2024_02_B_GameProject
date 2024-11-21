@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class ScoreUI : MonoBehaviour
 {
-    private void OnEnable()
+    private void OnEnable()                             //활성화될때 이벤트 등록
     {
         EventSystem.OnScoreChanged += UpdateScore;
         EventSystem.OnGameOver += ShowGameOver;
     }
-
-    private void OnDisable()
+    private void OnDisable()                            //비활성화될때 이벤트 해제
     {
         EventSystem.OnScoreChanged -= UpdateScore;
         EventSystem.OnGameOver -= ShowGameOver;
@@ -18,9 +17,8 @@ public class ScoreUI : MonoBehaviour
 
     void UpdateScore(int newScore)
     {
-        Debug.Log($"Score updat: {newScore}");
+        Debug.Log($"Score update: {newScore}");
     }
-
     void ShowGameOver()
     {
         Debug.Log("Game Over!");

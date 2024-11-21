@@ -5,22 +5,21 @@ using UnityEngine;
 
 public class SimpleCallback : MonoBehaviour
 {
-    private Action greetingAction;
-
+    private Action greetingAction;              //액션 선언 
+  
     void Start()
     {
-        greetingAction = SayHello;
+        greetingAction = SayHello;              //Action 함수 할당
         PerformGreeting(greetingAction);
     }
 
     void SayHello()
     {
-        Debug.Log("Hello, wolrd!");
+        Debug.Log("Hello, world!");
     }
 
-    void PerformGreeting (Action greetingFunc)
+    void PerformGreeting(Action greetingFunc)
     {
         greetingFunc?.Invoke();
-    }
-
+    }  
 }

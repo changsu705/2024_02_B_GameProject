@@ -7,12 +7,14 @@ public class SimpleGeneric : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        PrintValue(42);
+        PrintValue("Hello, Generics!");
+        PrintValue(3.14f);
     }
 
-    // Update is called once per frame
     void PrintValue<T>(T value)
     {
-        Debug.Log($"Value")
+        Debug.Log($"Value : {value}, Type : {typeof(T)}");
     }
+    
 }
